@@ -1,6 +1,7 @@
 CREATE DATABASE task4
 
 
+
 USE task4
 
 CREATE TABLE Depots(
