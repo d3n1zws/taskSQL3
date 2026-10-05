@@ -163,7 +163,6 @@ ON p.Id = dp.PatientId
 WHERE dc.Id = 1 AND dp.[Date] >= CAST(GETDATE() AS DATE) AND dp.[Date] < DATEADD(DAY, 1, CAST(GETDATE() AS DATE))
 
 
-
 CREATE TABLE Medicine(
 [Name] VARCHAR(20) CHECK(len([Name]) > 2) UNIQUE NOT NULL,
 Id INT IDENTITY(1, 1) PRIMARY KEY
