@@ -183,15 +183,12 @@ ALTER TABLE DoctorPatient
 DROP MedicineId 
 
 
-
 SELECT *
 FROM Patients AS p
 JOIN PatientMedicine AS pm
 ON pm.PatientId = p.Id
 JOIN Medicine AS m
 ON pm.MedicineId = m.Id
-
-
 
 ALTER TABLE DoctorPatient
 DROP CONSTRAINT FK__DoctorPat__Medic__7F2BE32F
@@ -214,6 +211,3 @@ VALUES
 (3, 4, 3),
 (5, 3, 4),
 (2, 5, 5)
-
-
-
