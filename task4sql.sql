@@ -178,7 +178,6 @@ VALUES
 ('med5')
 
 
-
 ALTER TABLE DoctorPatient
 DROP MedicineId 
 
